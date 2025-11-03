@@ -19,7 +19,7 @@ pipeline {
       steps {
         sh 'docker stop springboot-demo || true'
         sh 'docker rm springboot-demo || true'
-        sh 'docker run -d --name springboot-demo -p 8080:8080 springboot-demo'
+        sh 'docker run -d --name springboot-demo -p 8082:8080 springboot-demo'
       }
     }
   }
