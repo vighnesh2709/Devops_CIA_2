@@ -20,7 +20,7 @@ public class WebAppApplication {
 
     @RequestMapping("/test")
     public String testing(){
-        return ("Priliminary checks 6 !");
+        return ("Priliminary checks 7!");
     }
 
 }
